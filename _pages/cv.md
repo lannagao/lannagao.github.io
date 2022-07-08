@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.A. in History, Bard College, 2022
+* B.A. in History and Asian Studies, Bard College, 2022
 
 <!--
 Work experience
