@@ -9,7 +9,7 @@ const garamond = EB_Garamond({
 });
 
 const myFont = localFont({
-  src: './keshilumingti.ttf',
+  src: './keshilumingti.woff2',
   //src: './cwTeXMing.ttf',
   display: 'swap',
 })
