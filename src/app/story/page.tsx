@@ -11,11 +11,11 @@ export default function Page() {
   const router = useRouter();
 
   const items = blogs.map((blog) => {
-    const short = blog.short + '......';
-
+    const short = blog ? blog.short + '......' : "";
+    const id = blog ? blog.id : "";
 
     return (
-      <div className="flex flex-col items-start justify-top p-12">
+      <div key={id} className="flex flex-col items-start justify-top p-12">
         <button className="cursor-pointer pb-5 text-3xl underline-offset-8 decoration-2 no-underline hover:underline" type="button" onClick={() => router.push(`/story/${blog.slug}`)}>
           {blog.title}
         </button>
